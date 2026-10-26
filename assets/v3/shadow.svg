@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="بطاقة برنامج يوم جرّاح وتسلسل التعلم">
+<title>بطاقة برنامج يوم جرّاح وتسلسل التعلم</title><style></style>
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abc3d4"/><stop offset=".45" stop-color="#64869c"/><stop offset="1" stop-color="#314d62"/></linearGradient>
+ <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b67b67"/><stop offset="1" stop-color="#895c54"/></linearGradient>
+</defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="300" cy="410" rx="239" ry="19" fill="#070607"/>
+<path d="M94 85 H325 Q345 85 345 105 V360 Q345 380 325 380 H94 Q74 380 74 360 V105 Q74 85 94 85Z" fill="#172b40" stroke="#4a667c" stroke-width="3"/>
+<rect x="98" y="115" width="223" height="69" rx="7" fill="#800020"/>
+<path d="M123 136 H173 M123 153 H214" stroke="#f9bbc5" stroke-width="5"/>
+<rect x="264" y="130" width="39" height="37" rx="5" fill="#d63049"/>
+<path d="M282 138 V158 M273 148 H293" stroke="#fff0f3" stroke-width="4"/>
+<path d="M118 220 V331" stroke="#48667d" stroke-width="3"/>
+<circle cx="118" cy="220" r="8" fill="#e3b751"/>
+<circle cx="118" cy="272" r="8" fill="#61c5d1"/>
+<circle cx="118" cy="324" r="8" fill="#d63049"/>
+<path d="M143 214 H276 M143 230 H246 M143 266 H288 M143 282 H255 M143 318 H265 M143 334 H285" stroke="#7595ae" stroke-width="5"/>
+<path d="M160 61 H261 V91 Q261 101 250 101 H171 Q160 101 160 90Z" fill="#37516b" stroke="#65889f" stroke-width="3"/>
+<path d="M195 61 V52 Q195 42 210 42 Q226 42 226 52 V61" fill="none" stroke="#65889f" stroke-width="5"/>
+<path d="M345 196 H458 Q478 196 478 216 V360 Q478 380 458 380 H345Z" fill="#20374a" stroke="#4a667c" stroke-width="3"/>
+<path d="M364 218 H454 M364 240 H436" stroke="#5b7b93" stroke-width="4"/>
+<path d="M365 271 H452 V339 H365Z" fill="#0c1b2b"/>
+<path d="M382 307 H399 L410 286 L423 323 L434 303 H444" stroke="#61c5d1" stroke-width="4" fill="none"/>
+<g transform="rotate(22 444 149)">
+ <path d="M435 56 H451 V185 H435Z" fill="url(#steel)"/>
+ <path d="M435 185 H451 L463 232 Q437 229 435 206Z" fill="#d3e1eb"/>
+ <path d="M438 74 H448 M438 86 H448 M438 98 H448 M438 110 H448 M438 122 H448 M438 134 H448 M438 146 H448 M438 158 H448" stroke="#2b485f" stroke-width="2"/>
+</g>
+<path d="M507 274 V367 Q507 390 480 390 H429" stroke="#e3b751" stroke-width="4" fill="none"/>
+<path d="M440 380 L428 390 L440 400" stroke="#e3b751" stroke-width="4" fill="none"/>
+<path d="M115 401 H260 M358 417 H474" stroke="#37516b" stroke-width="3"/>
+</g></svg>

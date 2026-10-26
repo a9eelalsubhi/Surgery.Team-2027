@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="نموذج تعليمي للخياطة الجراحية وأدوات التدريب">
+<title>نموذج تعليمي للخياطة الجراحية وأدوات التدريب</title><style></style>
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abc3d4"/><stop offset=".45" stop-color="#64869c"/><stop offset="1" stop-color="#314d62"/></linearGradient>
+ <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b67b67"/><stop offset="1" stop-color="#895c54"/></linearGradient>
+</defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="300" cy="408" rx="247" ry="20" fill="#070607"/>
+<path d="M76 167 L410 129 Q428 127 437 144 L500 313 Q507 332 489 339 L146 388 Q127 390 119 372 L60 191 Q55 173 76 167Z" fill="#21151c" stroke="#3b5266" stroke-width="3"/>
+<path d="M84 148 L409 111 Q426 109 433 124 L492 295 Q498 310 481 314 L147 363 Q130 366 124 350 L68 171 Q64 151 84 148Z" fill="url(#pad)"/>
+<path d="M91 173 L408 137 M100 204 L420 168 M110 236 L431 199 M119 268 L442 230 M130 300 L454 261 M140 332 L466 293" stroke="#d19880" stroke-width="2" opacity=".47"/>
+<path d="M127 260 Q245 215 442 226" stroke="#67423d" stroke-width="11" fill="none"/>
+<path d="M127 260 Q245 215 442 226" stroke="#dcaa94" stroke-width="2" fill="none"/>
+<g fill="none" stroke="#a8e3e9" stroke-width="3.5">
+ <path d="M158 233 Q169 254 179 265 M202 222 Q213 243 223 255 M247 215 Q259 237 270 249 M292 212 Q304 235 316 248 M338 211 Q350 232 362 248 M382 213 Q396 232 409 248"/>
+ <path d="M158 233 Q184 212 202 222 M202 222 Q230 205 247 215 M247 215 Q275 199 292 212 M292 212 Q323 199 338 211 M338 211 Q369 198 382 213" opacity=".65"/>
+</g>
+<path d="M409 248 Q471 261 490 216 Q509 171 472 142" stroke="#a8e3e9" stroke-width="3" fill="none"/>
+<path d="M472 143 A29 29 0 1 1 489 89" stroke="#c8d9e6" stroke-width="4" fill="none"/>
+<path d="M489 89 L483 100" stroke="#eef3f8" stroke-width="3"/>
+<g transform="rotate(-32 330 123)">
+ <path d="M277 74 L331 237 L343 236 L309 68Z" fill="url(#steel)" stroke="#aec4d3" stroke-width="2"/>
+ <path d="M286 72 L330 215" fill="none" stroke="#d9e5ee" stroke-width="3"/>
+ <path d="M297 69 L338 214" fill="none" stroke="#263f53" stroke-width="3"/>
+ <ellipse cx="274" cy="53" rx="22" ry="30" fill="#080608" stroke="#7e9caf" stroke-width="8"/>
+ <ellipse cx="305" cy="47" rx="22" ry="30" fill="#080608" stroke="#7e9caf" stroke-width="8"/>
+ <circle cx="316" cy="126" r="5" fill="#1d1017" stroke="#bcd0dc" stroke-width="2"/>
+</g>
+<path d="M89 386 L80 365 M107 382 L98 361 M126 378 L117 357" stroke="#4d6b82" stroke-width="3"/>
+<path d="M189 399 H341" stroke="#37516b" stroke-width="3"/>
+</g></svg>

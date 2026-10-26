@@ -1,0 +1,36 @@
+/* A full-bleed closing poster: native Thmanyah type over an original surgical case. */
+body[data-atmosphere=finale] #app{display:block;height:100dvh}
+body[data-atmosphere=finale] .masthead,body[data-atmosphere=finale] .surgery-signature,body[data-atmosphere=finale] #scene-atmosphere{display:none}
+body[data-atmosphere=finale] #stage{padding:0;height:100dvh;overflow:hidden;background:#10070d}
+body[data-atmosphere=finale] #transition-layer{inset:0}
+body[data-atmosphere=finale] .presentation-footer{position:absolute;inset:auto 0 0;height:64px;background:#0d080bad;border-color:#a3576940;backdrop-filter:blur(9px);z-index:8}
+.finale-scene{height:100%;min-height:100%;width:100%;max-width:none;position:relative;display:block;overflow:hidden;background:radial-gradient(ellipse at center,#3e1524,#10070d 70%);isolation:isolate}
+.finale-case-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;z-index:-3}
+.finale-vignette{position:absolute;inset:0;z-index:-2;background:linear-gradient(#0c040c33,transparent 30%,transparent 60%,#0b050d65),radial-gradient(ellipse at center,transparent 35%,#08040b77 100%)}
+.finale-texture{position:absolute;inset:0;width:100%;height:100%;z-index:4;mix-blend-mode:soft-light;opacity:.055;pointer-events:none}
+.finale-top-label{position:absolute;right:6%;top:3%;font:10px/1.5 Arial,sans-serif;letter-spacing:.32em;color:#cd96a4;opacity:.7}
+.finale-scene h1{font-family:CampaignDisplay,ThmanyahDisplay,Thmanyah,serif;font-weight:900;line-height:1.1;letter-spacing:0;text-align:center;color:#f8e9e4}
+.finale-title-top{position:absolute;left:14%;right:14%;top:4.5%;display:block;font-size:clamp(76px,9.9vw,174px);transform:perspective(1000px) rotateX(-15deg) rotateZ(-4deg);text-shadow:0 3px 0 #5f2937,0 9px 30px #13050e88;white-space:nowrap;transform-origin:50% 0}
+.finale-title-bottom{position:absolute;left:13%;right:12%;bottom:20%;display:block;transform:perspective(1000px) rotateX(14deg) rotateZ(3deg);transform-origin:50% 100%;font-size:clamp(66px,8.2vw,146px);text-shadow:0 3px 0 #5f2937,0 8px 25px #13050e80;white-space:nowrap}
+.finale-title-bottom>span{font-size:.72em;color:#dca7ae;font-weight:700}.finale-title-bottom strong{font-weight:900}
+.finale-seal{position:absolute;left:4.3%;top:34%;width:120px;height:150px;border:1.5px solid #d5a3ac99;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;transform:perspective(600px) rotateY(28deg) rotateZ(-14deg);color:#d5a3ac;opacity:.68}
+.finale-seal:before{content:'';position:absolute;inset:5px;border:1px dashed #d5a3ac77;border-radius:50%}.finale-seal>span{font-size:13px}.finale-seal img{height:78px;width:65px;object-fit:contain;filter:invert(1);opacity:.8}.finale-seal b{font:11px Arial,sans-serif;letter-spacing:.3em}
+.finale-receipt{position:absolute;right:4.5%;top:35%;width:175px;color:#d8a8b0;transform:perspective(700px) rotateY(-25deg) rotateZ(7deg);opacity:.86}.finale-receipt>p{font-size:16px;font-weight:700;padding-bottom:10px;border-bottom:1px solid #ce96a577}.finale-receipt ol{list-style:none;margin:10px 0 0;padding:0}.finale-receipt li{display:flex;gap:13px;align-items:center;margin:11px 0;font-size:16px}.finale-receipt bdi{font:10px Arial,sans-serif;letter-spacing:.1em;color:#aa7789}.finale-receipt-rule{display:block;height:5px;border-block:1px solid #ba849377;margin-top:17px}
+.finale-thanks{position:absolute;left:12%;right:12%;bottom:8.5%;text-align:center;color:#e5c4ca}.finale-thanks p{font-size:23px;font-weight:500}.finale-thanks>span{display:block;font:9px/1.6 Arial,sans-serif;letter-spacing:.4em;margin-top:7px;color:#ad7e8f}
+.case-unfold-flap{position:absolute;inset:0;pointer-events:none;background:linear-gradient(160deg,#571c30,#1d0b18);box-shadow:inset 0 0 0 1px #7b3546}.case-unfold-flap.top{bottom:50%;transform-origin:50% 0}.case-unfold-flap.bottom{top:50%;transform-origin:50% 100%}
+@media(min-width:1800px){.finale-receipt{width:220px}.finale-receipt>p,.finale-receipt li{font-size:21px}.finale-seal{width:145px;height:185px}.finale-seal img{height:95px;width:82px}.finale-thanks p{font-size:29px}}
+@media(max-width:900px){.finale-scene{height:100dvh;min-height:100dvh}.finale-top-label{font-size:9px;top:3%;right:6%}.finale-title-top{top:9%;left:6%;right:6%;font-size:clamp(48px,11.7vw,105px)}.finale-title-bottom{bottom:18%;left:6%;right:6%;font-size:clamp(47px,9.4vw,88px)}.finale-seal{left:4%;top:37%;width:90px;height:115px}.finale-seal img{height:57px;width:50px}.finale-seal>span{font-size:10px}.finale-seal b{font-size:9px}.finale-receipt{right:4%;top:38%;width:135px}.finale-receipt>p,.finale-receipt li{font-size:13px}.finale-receipt li{gap:8px;margin:9px 0}.finale-thanks{bottom:11.5%}.finale-thanks p{font-size:21px}}
+@media(max-width:560px){.finale-case-art{object-position:51% 50%}.finale-title-top{top:10%;font-size:clamp(43px,13.7vw,72px);transform:perspective(600px) rotateX(-12deg) rotateZ(-5deg)}.finale-title-bottom{bottom:22%;white-space:normal;font-size:clamp(48px,14.5vw,75px);line-height:1.05}.finale-title-bottom>span{display:block;font-size:.62em;margin-bottom:4px}.finale-title-bottom strong{display:block}.finale-seal{top:33%;left:2%;width:64px;height:85px;opacity:.55}.finale-seal img{height:43px;width:38px}.finale-seal>span{font-size:8px}.finale-seal b{font-size:7px}.finale-receipt{top:34%;right:3%;width:92px;opacity:.7}.finale-receipt>p{font-size:10px}.finale-receipt li{font-size:10px;gap:5px}.finale-receipt bdi{font-size:8px}.finale-thanks{bottom:13%}.finale-thanks p{font-size:19px}.finale-thanks>span{font-size:7px;letter-spacing:.32em}}
+@media(max-width:560px) and (orientation:portrait){.finale-case-art{inset:auto;left:50%;top:50%;width:100dvh;height:100vw;max-width:none;transform:translate(-50%,-50%) rotate(-90deg);object-position:50% 50%}}
+
+/* A legible, oversized ink seal, integrated with the same perspective. */
+.finale-seal{left:3.2%;top:29%;width:clamp(190px,16.5vw,300px);height:clamp(235px,20vw,365px);opacity:1;color:#f3dfe4;border-color:#e6b9c8cc;border-width:2px;transform:perspective(800px) rotateY(18deg) rotateZ(-11deg);background:radial-gradient(ellipse at center,#160811b0,transparent 74%);text-shadow:0 2px 5px #10050c}
+.finale-seal:before{inset:7px;border-color:#e3b5c599}
+.finale-seal>span{font-size:clamp(18px,1.55vw,27px);font-weight:700}
+.finale-seal img{height:clamp(140px,13vw,230px);width:clamp(116px,10.5vw,190px);opacity:1;filter:brightness(0) invert(1) drop-shadow(0 2px 5px #08040b77)}
+.finale-seal b{font-size:15px;letter-spacing:.3em;color:#eac8d3}
+.finale-word{display:inline-block;will-change:transform,opacity}
+.finale-scissor-cue{position:absolute;width:clamp(330px,40vw,620px);height:auto;pointer-events:none;filter:drop-shadow(0 18px 25px #050207b3)}
+.finale-scissor-cue .surgical-tool{position:relative;inset:auto;width:100%;height:auto;filter:none}
+@media(max-width:900px){.finale-seal{left:3%;top:30%;width:145px;height:185px}.finale-seal img{height:115px;width:98px}.finale-seal>span{font-size:16px}.finale-seal b{font-size:12px}.finale-scissor-cue{width:340px}}
+@media(max-width:560px){.finale-seal{left:5%;top:30%;width:112px;height:148px}.finale-seal img{height:93px;width:80px}.finale-seal>span{font-size:13px}.finale-seal b{font-size:10px}.finale-seal:before{inset:5px}.finale-scissor-cue{width:285px}}

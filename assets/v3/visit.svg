@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="مقطع تعليمي مبسط لقسم مستشفى">
+<title>مقطع تعليمي مبسط لقسم مستشفى</title><style></style>
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abc3d4"/><stop offset=".45" stop-color="#64869c"/><stop offset="1" stop-color="#314d62"/></linearGradient>
+ <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b67b67"/><stop offset="1" stop-color="#895c54"/></linearGradient>
+</defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="301" cy="412" rx="249" ry="19" fill="#070607"/>
+<path d="M76 126 L185 66 H472 L527 117 V356 L418 412 H127 L76 361Z" fill="#14283b" stroke="#35566e" stroke-width="3"/>
+<path d="M77 126 H418 L526 117 M418 126 V411" stroke="#496b85" stroke-width="3" fill="none"/>
+<path d="M76 126 L186 66 H472 L418 126Z" fill="#263f54"/>
+<path d="M186 66 V304 L77 361" fill="none" stroke="#3a5c76" stroke-width="3"/>
+<path d="M186 304 H472 L526 356 L418 412 H127 L76 361Z" fill="#20394d"/>
+<path d="M221 321 H431 M171 346 H455 M136 371 H465" stroke="#2e4b61" stroke-width="2"/>
+<path d="M174 326 V165 H282 V310" stroke="#64c89e" stroke-width="9" fill="none"/>
+<path d="M184 176 H269 V302 H184Z" fill="#0c1c2d"/>
+<path d="M264 181 L220 195 V319 L264 302Z" fill="#800020"/>
+<circle cx="229" cy="254" r="3" fill="#f4bac5"/>
+<path d="M310 158 H394 V229 H310Z" fill="#416479"/>
+<path d="M321 170 H381 V217 H321Z" fill="#173144"/>
+<path d="M352 170 V217 M321 193 H381" stroke="#64c89e" stroke-width="3"/>
+<path d="M103 161 H147 V232 H103Z" fill="#26465d"/>
+<path d="M108 176 H141 M108 188 H141 M108 200 H132" stroke="#86a8bf" stroke-width="3"/>
+<path d="M323 257 H384 L408 273 H347Z" fill="#800020"/>
+<path d="M348 273 V315 M403 275 V309" stroke="#698da6" stroke-width="5"/>
+<path d="M324 258 V302" stroke="#698da6" stroke-width="5"/>
+<path d="M309 286 L336 301 V330 L309 314Z M376 308 L402 323 V352 L376 337Z" fill="#3c6179"/>
+<path d="M453 160 H488 V271 H453Z" fill="#29475e"/>
+<path d="M459 171 H482 M459 185 H482 M459 199 H482 M459 213 H482" stroke="#83a2b8" stroke-width="3"/>
+<path d="M471 233 V255 M460 244 H482" stroke="#d63049" stroke-width="5"/>
+<path d="M148 379 H278 Q304 379 304 357 V340" stroke="#e9b56c" stroke-width="4" fill="none" stroke-dasharray="9 9"/>
+<path d="M295 350 L304 339 L313 350" stroke="#e9b56c" stroke-width="4" fill="none"/>
+<path d="M145 94 H180 M185 76 H206" stroke="#e9b56c" stroke-width="4"/>
+</g></svg>

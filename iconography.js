@@ -1,0 +1,35 @@
+// نظام أيقونات أصلي مرسوم للمقترح؛ مسارات SVG قابلة للتحرير، دون مكتبات خارجية.
+const paths={
+ hubTimeline:'<path d="M5 32h54M14 13v13m18 12v13m18-38v13"/><circle cx="14" cy="32" r="5" fill="currentColor"/><circle cx="32" cy="32" r="5" fill="currentColor"/><circle cx="50" cy="32" r="5" fill="currentColor"/><path d="M8 10h12M26 54h12M44 10h12"/>',
+ passport:'<path d="M12 9h35a5 5 0 0 1 5 5v39a4 4 0 0 1-4 4H12Z" fill="currentColor" opacity=".12"/><path d="M12 9h35a5 5 0 0 1 5 5v39a4 4 0 0 1-4 4H12ZM18 9v48M25 43h19M25 49h13"/><circle cx="35" cy="27" r="10"/><path d="M25 27h20m-10-10c-6 6-6 14 0 20m0-20c6 6 6 14 0 20"/>',
+ invitation:'<rect x="10" y="17" width="44" height="37" rx="4"/><path d="m10 26 22 15 22-15M10 54l15-16m29 16L39 38M24 24h16M43 7v10m-5-5h10M15 7l-3 5m44 0 3-5"/>',
+ compass:'<circle cx="32" cy="32" r="24"/><path d="m43 21-7 15-15 7 7-15 15-7Z" fill="currentColor" opacity=".2"/><path d="m43 21-7 15-15 7 7-15 15-7ZM32 8v6m0 36v6M8 32h6m36 0h6m-22-2-4 4"/>',
+ caselab:'<path d="M9 17h31v38H9ZM16 10h17v13H16V10ZM17 32h14m-14 9h10"/><path d="M48 12v19L37 50q-3 7 5 7h13q8 0 4-7L48 31m-5 13h12M44 12h8"/><circle cx="48" cy="49" r="2" fill="currentColor"/>',
+ scalpel:'<path d="m7 43 21-21 10 10-21 21-10-10Z" fill="currentColor" opacity=".22"/><path d="m28 22 11-11 14-4-4 14-11 11M7 43l10 10 21-21-10-10L7 43Z"/><path d="m35 22 8-8M14 42l9-9M18 46l9-9"/>',
+ suture:'<path d="M7 31h50M12 19l8 24m4-24 8 24m4-24 8 24m4-24 8 24"/><path d="M8 15c0-7 11-9 15-2 4 6-6 16-15 18" stroke="var(--accent,currentColor)"/>',
+ book:'<path d="M32 16c-8-6-16-7-25-6v39c10-1 18 0 25 6 7-6 15-7 25-6V10c-9-1-17 0-25 6Z" fill="currentColor" opacity=".13"/><path d="M32 16c-8-6-16-7-25-6v39c10-1 18 0 25 6 7-6 15-7 25-6V10c-9-1-17 0-25 6Zm0 0v39M14 20l10 2M14 29l10 2M40 22l10-2M40 31l10-2"/>',
+ chip:'<rect x="15" y="15" width="34" height="34" rx="7" fill="currentColor" opacity=".16"/><rect x="15" y="15" width="34" height="34" rx="7"/><path d="M24 7v8m8-8v8m8-8v8M24 49v8m8-8v8m8-8v8M7 24h8m-8 8h8m-8 8h8m34-16h8m-8 8h8m-8 8h8"/><path d="m23 33 6 6 13-14" stroke="var(--accent,currentColor)"/>',
+ robot:'<path d="M8 55h48M15 55V43l14-15m5-8L47 9l9 9-14 11m-10 7 11 12M50 23l5 10-5 5"/><circle cx="29" cy="29" r="8" fill="currentColor" opacity=".18"/><circle cx="29" cy="29" r="8"/><circle cx="18" cy="45" r="5"/><path d="M10 55V45m16 10V45M46 11l7 8"/>',
+ hospital:'<path d="M6 56h52M11 56V15h29v41m0-29h13v29M22 56V44h9v12"/><path d="M25 21v13m-6-6h12M17 38h3m13 0h3M46 36h3m-3 8h3"/>',
+ people:'<circle cx="32" cy="17" r="8" fill="currentColor" opacity=".15"/><circle cx="32" cy="17" r="8"/><path d="M17 55V44a15 15 0 0 1 30 0v11M14 16a7 7 0 0 0-2 13m-5 25V44a12 12 0 0 1 9-11m34-17a7 7 0 0 1 2 13m5 25V44a12 12 0 0 0-9-11"/>',
+ clipboard:'<rect x="12" y="12" width="40" height="46" rx="6"/><path d="M24 12V7h16v10H24v-5M23 30h20m-20 9h20m-20 9h13"/>',
+ chart:'<path d="M10 8v47h46M21 45V31m11 14V22m11 23V11"/><path d="m18 23 12-9 10 3 14-11" stroke="var(--accent,currentColor)"/>',
+ path:'<path d="M9 51h28a9 9 0 0 0 0-18H25a9 9 0 0 1 0-18h27m-9-8 9 8-9 8"/><circle cx="10" cy="51" r="4" fill="currentColor"/>',
+ calendar:'<rect x="9" y="13" width="46" height="43" rx="6"/><path d="M9 25h46M21 7v12M43 7v12M20 35h5m9 0h5m-19 11h5m9 0h5"/>',
+ check:'<rect x="9" y="9" width="46" height="46" rx="9" fill="currentColor" opacity=".12"/><rect x="9" y="9" width="46" height="46" rx="9"/><path d="m20 32 8 8 17-19" stroke="var(--accent,currentColor)"/>',
+ archive:'<path d="M11 24v32h42V24M7 9h50v15H7zM24 34h16M26 34v8h12v-8"/>',
+ tools:'<path d="m14 12 12 12m-7-19 13 13-14 14L5 19m30 20 14 14 7-7-14-14"/><path d="m9 54 24-24a15 15 0 0 0 20-20L42 21l-7-7L46 3a15 15 0 0 0-20 20L2 47l7 7Z"/>',
+ clock:'<circle cx="32" cy="32" r="24"/><path d="M32 16v17l11 7" stroke="var(--accent,currentColor)"/>',
+ feedback:'<path d="M9 10h46v34H30L17 55V44H9V10Z"/><path d="M19 21h26M19 31h19"/>',
+ eye:'<path d="M5 32s10-17 27-17 27 17 27 17-10 17-27 17S5 32 5 32Z"/><circle cx="32" cy="32" r="8" fill="currentColor" opacity=".2"/><circle cx="32" cy="32" r="8"/>',
+ shield:'<path d="M32 6 10 15v17c0 12 22 25 22 25s22-13 22-25V15L32 6Z"/><path d="m22 31 7 7 14-15"/>',
+ arrows:'<path d="M8 20h45m-9-9 9 9-9 9M56 44H11m9-9-9 9 9 9"/>',
+ folder:'<path d="M7 19v35h50V19H7Zm0 0V9h20l7 10"/><path d="M20 32h24M20 42h17"/>',
+ arrow:'<path d="M54 32H10m16-16L10 32l16 16"/>',
+ fullscreen:'<path d="M23 9H9v14m32-14h14v14M9 41v14h14m18 0h14V41"/>',
+ grid:'<rect x="9" y="9" width="17" height="17" rx="2"/><rect x="38" y="9" width="17" height="17" rx="2"/><rect x="9" y="38" width="17" height="17" rx="2"/><rect x="38" y="38" width="17" height="17" rx="2"/>',
+ motion:'<path d="M5 34h11l8-21 11 38 9-25 5 8h10"/>',
+ close:'<path d="m16 16 32 32m0-32L16 48"/>'
+};
+export function icon(name,cls=''){return `<svg class="icon ${cls}" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name]||paths.scalpel}</svg>`;}
+export function scalpelArt(){return `<svg viewBox="0 0 320 80" class="transition-scalpel" aria-hidden="true"><path d="M12 39 198 18l18 20L33 66c-15 1-23-10-21-27Z" fill="#b4c4d4"/><path d="m198 18 77-8c26-3 34 4 36 8-13 19-42 28-95 20Z" fill="#f0f6fb"/><path d="m36 43 148-17m-141 27 147-17" stroke="#526b82" stroke-width="3"/><path d="m217 32 67-13" stroke="#61c5d1" stroke-width="2"/></svg>`;}

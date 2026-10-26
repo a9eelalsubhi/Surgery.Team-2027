@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="شاشة تعليمية تربط المعلومات الجراحية بالتقنية">
+<title>شاشة تعليمية تربط المعلومات الجراحية بالتقنية</title><style></style>
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abc3d4"/><stop offset=".45" stop-color="#64869c"/><stop offset="1" stop-color="#314d62"/></linearGradient>
+ <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b67b67"/><stop offset="1" stop-color="#895c54"/></linearGradient>
+</defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="309" cy="408" rx="241" ry="20" fill="#070607"/>
+<path d="M87 99 H364 Q384 99 384 119 V319 H67 V119 Q67 99 87 99Z" fill="#1b2e43" stroke="#4a667c" stroke-width="3"/>
+<rect x="82" y="115" width="287" height="185" rx="7" fill="#0c1b2b"/>
+<circle cx="225" cy="107" r="3" fill="#7898af"/>
+<path d="M60 319 H389 L427 356 Q432 362 422 367 H38 Q27 364 33 357Z" fill="#345168"/>
+<path d="M82 329 H370 L392 350 H61Z" fill="#1c3449"/>
+<path d="M183 352 H270" stroke="#7898af" stroke-width="3"/>
+<path d="M104 141 H195 M104 155 H161" stroke="#6d91a8" stroke-width="4"/>
+<rect x="104" y="178" width="120" height="97" rx="7" fill="#203d50"/>
+<path d="M118 226 L137 226 L148 206 L164 248 L178 218 L191 226 H208" fill="none" stroke="#55c7bc" stroke-width="4"/>
+<path d="M244 184 H338 M244 204 H314 M244 224 H332 M244 244 H296" stroke="#4f738a" stroke-width="5"/>
+<rect x="244" y="263" width="50" height="8" rx="4" fill="#800020"/>
+<rect x="302" y="263" width="36" height="8" rx="4" fill="#55c7bc"/>
+<path d="M408 113 H500 Q523 113 523 136 V242 Q523 265 500 265 H408 Q385 265 385 242 V136 Q385 113 408 113Z" fill="#20374a" stroke="#55c7bc" stroke-width="3"/>
+<rect x="411" y="139" width="86" height="100" rx="9" fill="#800020"/>
+<path d="M454 158 V220 M429 189 H480" stroke="#eef3f8" stroke-width="13"/>
+<g stroke="#55c7bc" stroke-width="5">
+ <path d="M404 99 V113 M429 99 V113 M454 99 V113 M479 99 V113 M504 99 V113 M404 265 V279 M429 265 V279 M454 265 V279 M479 265 V279 M504 265 V279"/>
+ <path d="M371 139 H385 M371 164 H385 M371 189 H385 M371 214 H385 M371 239 H385 M523 139 H537 M523 164 H537 M523 189 H537 M523 214 H537 M523 239 H537"/>
+</g>
+<path d="M397 304 H489 L516 340 H424Z" fill="#182b3f" stroke="#3b5a73" stroke-width="2"/>
+<path d="M412 316 H477 M423 329 H488" stroke="#658ba4" stroke-width="3"/>
+<path d="M475 340 L453 385" stroke="#7e9caf" stroke-width="8"/>
+<path d="M453 385 L439 394" stroke="#eef3f8" stroke-width="5"/>
+<path d="M525 320 L546 340 L526 358 M538 340 H567" fill="none" stroke="#e9b56c" stroke-width="4"/>
+<path d="M124 390 H305 M389 411 H493" stroke="#37516b" stroke-width="3"/>
+</g></svg>

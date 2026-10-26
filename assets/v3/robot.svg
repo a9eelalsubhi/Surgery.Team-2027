@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="ذراع محاكاة جراحي يلتقط حلقة تدريبية">
+<title>ذراع محاكاة جراحي يلتقط حلقة تدريبية</title><style></style>
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abc3d4"/><stop offset=".45" stop-color="#64869c"/><stop offset="1" stop-color="#314d62"/></linearGradient>
+ <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b67b67"/><stop offset="1" stop-color="#895c54"/></linearGradient>
+</defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="303" cy="414" rx="239" ry="18" fill="#070607"/>
+<path d="M93 347 L378 325 L513 370 L220 404Z" fill="#182d40" stroke="#3d5b74" stroke-width="3"/>
+<path d="M93 347 V362 L220 420 L220 404 M220 420 L513 385 V370" fill="#101f30" stroke="#3d5b74" stroke-width="3"/>
+<path d="M125 338 L197 312 H262 L310 340 L233 367 H169Z" fill="#375a73"/>
+<ellipse cx="215" cy="329" rx="45" ry="21" fill="#1d3b53" stroke="#6f96af" stroke-width="3"/>
+<path d="M184 326 V273 H244 V326" fill="#2d536d" stroke="#7fa5bd" stroke-width="3"/>
+<path d="M187 278 L215 163 L254 173 L235 287Z" fill="#77b3ed"/>
+<path d="M216 178 L242 185 L224 270 L204 266Z" fill="#368898"/>
+<circle cx="237" cy="167" r="37" fill="#203d53" stroke="#7fa5bd" stroke-width="5"/>
+<circle cx="237" cy="167" r="16" fill="#e9b56c"/>
+<path d="M250 137 L372 101 L390 139 L265 189Z" fill="#446e88" stroke="#83aac1" stroke-width="3"/>
+<path d="M274 155 L367 121" stroke="#a9c9db" stroke-width="9"/>
+<circle cx="383" cy="118" r="31" fill="#203d53" stroke="#83aac1" stroke-width="5"/>
+<circle cx="383" cy="118" r="13" fill="#d63049"/>
+<path d="M403 133 L444 203 L420 222 L374 144Z" fill="#77b3ed"/>
+<path d="M405 153 L434 203" stroke="#9ee4e9" stroke-width="8"/>
+<circle cx="431" cy="214" r="24" fill="#213b50" stroke="#83aac1" stroke-width="4"/>
+<circle cx="431" cy="214" r="9" fill="#d63049"/>
+<path d="M419 234 L411 280 L427 297 M442 234 L450 280 L434 297" stroke="#a8c2d3" stroke-width="8" fill="none"/>
+<path d="M427 297 L427 306 M434 297 L434 306" stroke="#eef3f8" stroke-width="4"/>
+<ellipse cx="431" cy="324" rx="29" ry="11" fill="none" stroke="#e9b56c" stroke-width="7"/>
+<path d="M340 337 L371 348 L381 337 L351 327Z" fill="#800020"/>
+<path d="M365 362 L392 371 L403 359 L376 351Z" fill="#e9b56c"/>
+<path d="M288 105 Q279 67 320 56 Q361 47 384 86" stroke="#324e65" stroke-width="8" fill="none"/>
+<path d="M117 391 H171 M326 408 H417" stroke="#37516b" stroke-width="3"/>
+</g></svg>

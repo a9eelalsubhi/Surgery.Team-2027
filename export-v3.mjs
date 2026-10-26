@@ -1,0 +1,18 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import path from 'node:path';
+const destination=path.resolve(process.argv[2]||'exports');await mkdir(destination,{recursive:true});
+const get=f=>readFile(path.join('docs',f),'utf8');
+let html=await get('index.html');const css=(await Promise.all(['styles.css','atmosphere.css','hub.css','hub-windows.css','journey.css','journey-single.css','surgical-transitions.css','campaigns.css','finale.css','operations.css','operations-redesign.css','presentation-controls.css'].map(get))).join('\n');
+const modules=['content.js','iconography.js','visuals.js','hub.js','student-graphic.js','journey.js','campaign-logos.js','campaigns.js','finale.js','operations-art.js','operations.js','scenes.js','background.js','surgical-transitions.js','motion.js','app.js'];
+let js=(await Promise.all(modules.map(get))).map(s=>s.replace(/^import .*?;\r?\n/gm,'').replace(/^export /gm,'')).join('\n').replace(/^if\('serviceWorker'.*$/gm,'');
+html=html.replace(/<link rel="stylesheet"[^>]+>/g,'').replace(/<link rel="preload"[^>]+>/g,'').replace('</head>',`<style>${css}</style></head>`).replace('<script type="module" src="app.js"></script>',`<script type="module">${js.replaceAll('</script','<\\/script')}</script>`);
+const offlineAssets={};
+for(const name of ['academic','skills','ai','shadow','visit','robot'])for(const prefix of ['','brand-'])offlineAssets[prefix+name]=`data:image/svg+xml;base64,${(await readFile(`docs/assets/v3/${prefix}${name}.svg`)).toString('base64')}`;
+html=html.replace('src="assets/v3/${id}.svg"','src="${offlineAssets[id]}"').replace('src="assets/v3/brand-${id}.svg"',`src="\${offlineAssets['brand-'+id]}"`);
+html=html.replace('<script type="module">',`<script type="module">\nconst offlineAssets=${JSON.stringify(offlineAssets)};\n`);
+html=html.replace('image.src=`assets/v3/${prefix}${name}.svg`','image.src=offlineAssets[prefix+name]');
+const local=[...new Set(html.match(/assets\/[a-zA-Z0-9_./-]+\.(?:woff2|webp|svg|png)/g)||[])];
+const mime={'.woff2':'font/woff2','.webp':'image/webp','.svg':'image/svg+xml','.png':'image/png'};
+for(const file of local)html=html.replaceAll(file,`data:${mime[path.extname(file)]};base64,${(await readFile(`docs/${file}`)).toString('base64')}`);
+await writeFile(path.join(destination,'Surgery-Team-2027-Dark.html'),html);
+console.log(JSON.stringify({file:'Surgery-Team-2027-Dark.html',bytes:Buffer.byteLength(html),slides:11,vectorAssets:12,embedded:true}));

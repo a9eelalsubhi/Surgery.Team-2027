@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="قراءة حالة ونقاش الأدلة العلمية">
+<title>قراءة حالة ونقاش الأدلة العلمية</title><style></style>
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#abc3d4"/><stop offset=".45" stop-color="#64869c"/><stop offset="1" stop-color="#314d62"/></linearGradient>
+ <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b67b67"/><stop offset="1" stop-color="#895c54"/></linearGradient>
+</defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="303" cy="402" rx="238" ry="20" fill="#070607"/>
+<path d="M72 267 Q184 237 300 280 Q412 238 516 269 L516 367 Q412 342 300 389 Q185 343 72 368Z" fill="#101e2f" stroke="#37516b" stroke-width="3"/>
+<path d="M82 249 Q196 226 300 264 L300 367 Q189 329 82 354Z" fill="#284357"/>
+<path d="M300 264 Q410 227 506 249 L506 354 Q412 329 300 367Z" fill="#20384c"/>
+<path d="M300 265 L300 367" stroke="#55c7bc" stroke-width="4"/>
+<path d="M104 275 Q180 260 263 281 M104 294 Q180 278 263 300 M104 313 Q180 297 263 319 M104 332 Q182 315 263 338" fill="none" stroke="#6c8ba1" stroke-width="3"/>
+<path d="M330 281 Q400 260 477 273 M330 300 Q404 280 477 292 M330 319 Q402 299 477 311 M330 338 Q401 319 477 330" fill="none" stroke="#5d7d93" stroke-width="3"/>
+<path d="M258 59 H420 L464 103 V263 Q464 281 446 281 H258 Q240 281 240 263 V77 Q240 59 258 59Z" fill="#203247" stroke="#456076" stroke-width="3"/>
+<path d="M419 60 V104 H463" fill="#314d62"/>
+<path d="M274 91 H326" stroke="#b82b49" stroke-width="8"/>
+<rect x="273" y="119" width="42" height="42" rx="6" fill="#800020"/>
+<path d="M294 129 V151 M283 140 H305" stroke="#eef3f8" stroke-width="5"/>
+<path d="M333 128 H415 M333 146 H397 M274 185 H425 M274 204 H396 M274 223 H414" stroke="#88a4b8" stroke-width="5"/>
+<path d="M167 112 H191 V225 H167Z" fill="#e9b56c"/>
+<path d="M153 104 H204 V117 H153Z M163 224 H195 L204 238 H154Z" fill="#a77441"/>
+<path d="M178 119 V213" stroke="#ffdaa5" stroke-width="4"/>
+<circle cx="420" cy="294" r="66" fill="#080608" stroke="#55c7bc" stroke-width="14"/>
+<circle cx="420" cy="294" r="50" fill="#203d50"/>
+<path d="M391 299 L409 276 L426 292 L448 268" stroke="#e9b56c" stroke-width="5" fill="none"/>
+<path d="M390 316 H450 M390 273 V316" stroke="#668aa1" stroke-width="2" fill="none"/>
+<path d="M467 343 L507 389" stroke="#55c7bc" stroke-width="25"/>
+<path d="M475 351 L506 388" stroke="#258392" stroke-width="12"/>
+<path d="M117 389 H239 M353 412 H458" stroke="#37516b" stroke-width="3"/>
+</g></svg>

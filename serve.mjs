@@ -1,0 +1,7 @@
+import http from 'node:http';
+import {readFile,stat} from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve('docs');
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.ttf':'font/ttf','.webp':'image/webp','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'};
+const server=http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');if(url.pathname==='/__qa'){const mobile=url.searchParams.has('mobile');const width=mobile?390:1440,height=mobile?844:810,scale=mobile?.8:.44;res.writeHead(200,{'Content-Type':'text/html; charset=utf-8'});res.end(`<!doctype html><title>Local viewport QA</title><body style="margin:0;background:#260e1b;width:640px;position:relative"><iframe title="Presentation viewport" allow="fullscreen" src="/" style="position:absolute;left:0;top:0;border:0;width:${width}px;height:${height}px;transform:scale(${scale});transform-origin:top left"></iframe></body>`);return;}let p=path.resolve(root,'.'+decodeURIComponent(url.pathname));if(p!==root&&!p.startsWith(root+path.sep)){res.writeHead(403).end();return;}if((await stat(p)).isDirectory())p=path.join(p,'index.html');res.writeHead(200,{'Content-Type':types[path.extname(p)]||'application/octet-stream','Cache-Control':'no-cache'});res.end(await readFile(p));}catch{res.writeHead(404).end('Not found');}});
+server.listen(4173,'127.0.0.1',()=>console.log('Local: http://127.0.0.1:4173'));
