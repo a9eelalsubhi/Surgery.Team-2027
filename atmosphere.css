@@ -19,7 +19,8 @@ body{background:#080608}#app{position:relative;z-index:1}.masthead,.presentation
 .team-scene .section-heading{margin-bottom:20px}.team-scene .member{padding:0;overflow:hidden;background:#140a10}
 .member-portrait{height:224px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 65%,#8000206b,transparent 74%)}
 .member-portrait img{position:absolute;width:100%;height:auto;max-width:none;left:0;top:6px}
-.member[data-member=shahd] .member-portrait img,.member[data-member=sarah] .member-portrait img{width:85%;height:100%;object-fit:contain;left:7.5%;top:5px}
+.member[data-member=shahd] .member-portrait img{width:85%;height:100%;object-fit:contain;left:7.5%;top:5px}
+.member[data-member=sarah] .member-portrait img{top:-8%}
 .portrait-kind{position:absolute;bottom:9px;left:10px;font-size:11px;line-height:1.6;padding:3px 8px;border:1px solid #60414d;border-radius:4px;color:#d6c4cc;background:#150b12e8}
 .member-caption{display:flex;gap:12px;align-items:center;padding:12px 16px;border-top:1px solid #40212d;position:relative;background:#140a10}
 .team-scene .member h2{margin:0;font-size:25px;line-height:1.5;white-space:nowrap}.member-caption>div>span{font-size:13px;color:var(--muted)}

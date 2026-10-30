@@ -4,7 +4,7 @@ export const memberPortraits=[
  {id:'aseel',src:'assets/team/aseel-current.webp',alt:'صورة أصيل الصبحي بخلفية شفافة',illustration:false},
  {id:'taha',src:'assets/team/taha.webp',alt:'صورة طه الصافي بخلفية شفافة',illustration:false},
  {id:'shahd',src:'assets/team/shahd-icon.svg',alt:'أيقونة طبيبة بلا ملامح، بديل مؤقت لصورة شهد العوفي',illustration:true},
- {id:'sarah',src:'assets/team/sarah-icon.svg',alt:'أيقونة طبيبة بلا ملامح، بديل مؤقت لصورة سارة حلواني',illustration:true}
+ {id:'sarah',src:'assets/team/sarah-photo.png',alt:'صورة سارة حلواني',illustration:false}
 ];
 export const campaigns=[
  {id:'academic',name:'بُرهان',subtitle:'نلتقي حول سؤال جراحي',topic:'النقاش العلمي والتطوير الأكاديمي',color:'cyan',level:'تأسيسية',phase:'نبدأ بالمعرفة',
