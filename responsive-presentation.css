@@ -1,0 +1,27 @@
+/* Keep the presentation readable at 100% browser zoom on larger displays. */
+:root{--presentation-ui-scale:1}
+@media(min-width:901px){
+ .scene-holder{min-height:0}
+ .minimal-intro .intro-typography{width:min(980px,85%)}
+ .minimal-intro>.intro-monogram{height:145px;width:135px}
+ .campaign-reel{margin-inline:4%}
+ .identity-art .campaign-logo{height:110px}
+ .hub-overview .hub-window{min-height:235px}
+ .hub-overview .hub-launch-grid{min-height:285px}
+ .hub-overview .hub-card-copy{padding:18px 20px}
+ .hub-overview .hub-card-copy h2{font-size:26px}
+ .hub-overview .hub-card-copy p{font-size:20px}
+ .hub-overview .hub-card-features li{font-size:16px}
+ .hub-overview .hub-welcome h2{font-size:32px}
+ .hub-overview .hub-passport-book{height:170px;width:125px;flex-basis:125px}
+ .hub-overview .hub-tile-invite{height:160px;width:120px;gap:12px}
+ body:not([data-atmosphere=finale]) #app{grid-template-rows:calc(76px * var(--presentation-ui-scale)) minmax(0,1fr) calc(72px * var(--presentation-ui-scale))}
+ .masthead .club-brand{transform:scale(var(--presentation-ui-scale));transform-origin:right center}
+ .masthead .tools{transform:scale(var(--presentation-ui-scale));transform-origin:left center}
+ .surgery-signature{top:calc(95px * var(--presentation-ui-scale));transform:scale(var(--presentation-ui-scale));transform-origin:left top}
+ .presentation-footer .footer-location{transform:scale(var(--presentation-ui-scale));transform-origin:right center}
+ .presentation-footer .presentation-navigation{transform:scale(var(--presentation-ui-scale));transform-origin:left center}
+ #scene-atmosphere,#transition-layer{top:calc(76px * var(--presentation-ui-scale));bottom:calc(72px * var(--presentation-ui-scale))}
+ body[data-atmosphere=finale] #transition-layer{inset:0}
+ body[data-atmosphere=finale] .presentation-footer{height:calc(72px * var(--presentation-ui-scale))}
+}

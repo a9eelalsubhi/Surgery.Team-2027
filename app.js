@@ -16,12 +16,17 @@ let reducedMotion=matchMedia('(prefers-reduced-motion:reduce)').matches;
 try{if(localStorage.getItem('surgery-motion-v3')==='reduce')reducedMotion=true;}catch{}
 function fitScene(){
  const stage=query('#stage'),holder=query('.scene-holder'),scene=holder?.querySelector('.scene');if(!scene)return;
+ const uiScale=innerWidth<=900?1:Math.max(1,Math.min(innerWidth/1600,innerHeight/900));
+ document.documentElement.style.setProperty('--presentation-ui-scale',String(uiScale));
  if(scene.classList.contains('finale-scene')){holder.style.height=`${stage.clientHeight}px`;holder.dataset.scale='1';scene.style.width='100%';scene.style.height='100%';scene.style.minHeight='100%';scene.style.transform='none';return;}
  if(innerWidth<=900){holder.style.height='';scene.removeAttribute('style');return;}
  const css=getComputedStyle(stage),w=stage.clientWidth-parseFloat(css.paddingLeft)-parseFloat(css.paddingRight),h=stage.clientHeight-parseFloat(css.paddingTop)-parseFloat(css.paddingBottom);
- holder.style.height=`${h}px`;let low=.55,high=1,best=.55;
- for(let i=0;i<10;i++){const s=(low+high)/2;scene.style.width=`${w/s}px`;scene.style.minHeight=`${h/s}px`;scene.style.transform=`scale(${s})`;if(scene.scrollHeight*s<=h+1){best=s;low=s;}else high=s;}
- scene.style.width=`${w/best}px`;scene.style.minHeight=`${h/best}px`;scene.style.transform=`scale(${best})`;holder.dataset.scale=best.toFixed(3);
+ // Fit a readable presentation canvas, including enlargement on large screens.
+ // Previously the upper limit of 1 kept text tiny at normal browser zoom.
+ holder.style.height=`${h}px`;let low=.45,high=Math.max(.45,w/1480),best=.45;
+ const sizeScene=s=>{scene.style.width=`${w/s}px`;scene.style.height=`${h/s}px`;scene.style.minHeight=`${h/s}px`;scene.style.transform=`scale(${s})`;};
+ for(let i=0;i<12;i++){const s=(low+high)/2;sizeScene(s);if(scene.scrollHeight*s<=h+1){best=s;low=s;}else high=s;}
+ sizeScene(best);holder.dataset.scale=best.toFixed(3);
 }
 function paint(animate=false,back=false){
  const page=pages[slideIndex];
