@@ -2,7 +2,7 @@ import {pages} from './content.js';
 import {renderScene} from './scenes.js';
 import {icon} from './iconography.js';
 import {initHubWindows} from './hub.js';
-import {mountStudentJourney,applyStudentStep} from './journey.js';
+import {mountStudentJourney,applyStudentStep,resizeStudentJourney} from './journey.js';
 import {applyCampaignReveal} from './campaigns.js';
 import {animateTransition} from './motion.js';
 import {setAtmosphere} from './background.js';
@@ -59,7 +59,7 @@ matchMedia('(prefers-reduced-motion:reduce)').addEventListener('change',event=>{
 for(const name of ['academic','skills','ai','shadow','visit','robot'])for(const prefix of ['','brand-']){const image=new Image();image.src=`assets/v3/${prefix}${name}.svg`;}
 initHubWindows();
 paint(pages[slideIndex].id==='finale');
-document.fonts.ready.then(fitScene);window.addEventListener('resize',()=>{fitScene();if(isStudentPage(pages[slideIndex].id))mountStudentJourney(query('#stage'),journeyStates[pages[slideIndex].id],reducedMotion,false);});
+document.fonts.ready.then(fitScene);window.addEventListener('resize',()=>{fitScene();if(isStudentPage(pages[slideIndex].id))resizeStudentJourney(query('#stage'));});
 query('#stage').addEventListener('journey:arrived',event=>{if(innerWidth<=900&&event.detail.step&&isStudentPage(pages[slideIndex].id))query('.journey-focus')?.scrollIntoView({behavior:reducedMotion?'instant':'smooth',block:'center'});});
 if('serviceWorker' in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('./sw.js').catch(()=>{});
 
