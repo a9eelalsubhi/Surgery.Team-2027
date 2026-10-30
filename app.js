@@ -2,7 +2,7 @@ import {pages} from './content.js';
 import {renderScene} from './scenes.js';
 import {icon} from './iconography.js';
 import {initHubWindows} from './hub.js';
-import {mountStudentJourney,applyStudentStep,resizeStudentJourney} from './journey.js';
+import {mountStudentJourney,applyStudentStep,resizeStudentJourney} from './journey.js?v=24';
 import {applyCampaignReveal} from './campaigns.js';
 import {animateTransition} from './motion.js';
 import {setAtmosphere} from './background.js';
