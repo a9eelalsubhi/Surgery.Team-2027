@@ -3,7 +3,7 @@ export const members=['أصيل الصبحي','طه الصافي','شهد الع
 export const memberPortraits=[
  {id:'aseel',src:'assets/team/aseel-current.webp',alt:'صورة أصيل الصبحي بخلفية شفافة',illustration:false},
  {id:'taha',src:'assets/team/taha.webp',alt:'صورة طه الصافي بخلفية شفافة',illustration:false},
- {id:'shahd',src:'assets/team/shahd-icon.svg',alt:'أيقونة طبيبة بلا ملامح، بديل مؤقت لصورة شهد العوفي',illustration:true},
+ {id:'shahd',src:'assets/team/shahd-photo.png',alt:'صورة شهد العوفي',illustration:false},
  {id:'sarah',src:'assets/team/sarah-photo.png',alt:'صورة سارة حلواني',illustration:false}
 ];
 export const campaigns=[

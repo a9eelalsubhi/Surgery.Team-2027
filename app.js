@@ -1,5 +1,5 @@
-import {pages} from './content.js?v=25';
-import {renderScene} from './scenes.js?v=25';
+import {pages} from './content.js?v=27';
+import {renderScene} from './scenes.js?v=27';
 import {icon} from './iconography.js';
 import {initHubWindows} from './hub.js';
 import {mountStudentJourney,applyStudentStep,resizeStudentJourney} from './journey.js?v=24';
