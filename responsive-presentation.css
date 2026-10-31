@@ -19,15 +19,39 @@
  .minimal-intro>.intro-monogram{height:145px;width:135px}
  .campaign-reel{margin-inline:4%}
  .identity-art .campaign-logo{height:110px}
- .hub-overview .hub-window{min-height:235px}
- .hub-overview .hub-launch-grid{min-height:285px}
+ /* Let the mock browser fit its contents before the whole slide is scaled.
+    A shrinking frame plus a percentage-height body used to conceal its lower half. */
+ .hub-overview .hub-window{height:auto;min-height:0;flex:0 0 auto}
+ .hub-overview .hub-window-body{height:auto;min-height:0;padding:16px 24px;gap:20px;align-items:center}
+ .hub-overview .hub-launch-grid{flex:0 0 auto;min-height:285px}
  .hub-overview .hub-card-copy{padding:18px 20px}
  .hub-overview .hub-card-copy h2{font-size:26px}
  .hub-overview .hub-card-copy p{font-size:20px}
  .hub-overview .hub-card-features li{font-size:16px}
  .hub-overview .hub-welcome h2{font-size:32px}
+ .hub-overview .hub-welcome p{font-size:12px}
+ .hub-overview .hub-mini-label{font-size:11px}
+ .hub-overview .hub-mini-timeline .campaign-brand{height:48px}
+ .hub-overview .hub-mini-timeline:before{top:58px}
+ .hub-overview .hub-mini-timeline span{font-size:12px}
+ .hub-overview .hub-mini-timeline small{font-size:9px}
+ .hub-overview .hub-mock-heading{font-size:13px}
+ .hub-overview .hub-mock-events>p{font-size:10px}
+ .hub-overview .hub-passport-preview{gap:20px}
+ .hub-overview .hub-passport-preview>div:last-child{max-width:130px}
+ .hub-overview .hub-passport-preview>div:last-child strong{font-size:17px}
+ .hub-overview .hub-passport-preview>div:last-child span{font-size:11px}
  .hub-overview .hub-passport-book{height:170px;width:125px;flex-basis:125px}
- .hub-overview .hub-tile-invite{height:160px;width:120px;gap:12px}
+ .hub-overview .hub-card-action{font-size:16px;margin-top:auto}
+ .hub-overview .hub-card-index{font-size:11px}
+ .hub-overview .hub-tile-timeline{gap:18px}
+ .hub-overview .hub-tile-timeline .campaign-brand{height:44px}
+ .hub-overview .hub-tile-invite{height:170px;width:120px;padding:16px 10px;gap:12px;flex-shrink:0;text-align:center}
+ .hub-overview .hub-tile-invite>*{flex-shrink:0}
+ .hub-overview .hub-tile-invite>span:first-child{font-size:6px;letter-spacing:.4px;white-space:nowrap}
+ .hub-overview .hub-tile-invite strong{font-size:24px;line-height:1.35;white-space:nowrap}
+ .hub-overview .hub-tile-invite>span{font-size:10px;line-height:1.6}
+ .hub-overview .hub-member-journey{flex:0 0 auto}
  body:not([data-atmosphere=finale]) #app{grid-template-rows:calc(76px * var(--presentation-ui-scale)) minmax(0,1fr) calc(72px * var(--presentation-ui-scale))}
  .masthead .club-brand{transform:scale(var(--presentation-ui-scale));transform-origin:right center}
  .masthead .tools{transform:scale(var(--presentation-ui-scale));transform-origin:left center}
