@@ -1,6 +1,6 @@
 import {renderSupportSystem,renderInterdisciplinary,renderDocumentationSystem} from './operations.js?v=31';
 import {renderFinale} from './finale.js';
-import {renderCampaignTimeline,renderCampaignOverview} from './campaigns.js?v=31';
+import {renderCampaignTimeline,renderCampaignOverview} from './campaigns.js?v=32';
 import {members,memberPortraits,campaigns,collaboration,execution,operations,scenarios,metrics,pages} from './content.js?v=27';
 import {icon} from './iconography.js';
 import {renderStudentJourney} from './journey.js';

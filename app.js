@@ -1,9 +1,9 @@
 import {pages} from './content.js?v=27';
-import {renderScene} from './scenes.js?v=31';
+import {renderScene} from './scenes.js?v=32';
 import {icon} from './iconography.js';
 import {initHubWindows} from './hub.js?v=31';
 import {mountStudentJourney,applyStudentStep,resizeStudentJourney} from './journey.js?v=24';
-import {applyCampaignReveal} from './campaigns.js?v=31';
+import {applyCampaignReveal} from './campaigns.js?v=32';
 import {animateTransition} from './motion.js';
 import {setAtmosphere} from './background.js';
 const query=s=>document.querySelector(s);
