@@ -52,13 +52,67 @@
  .hub-overview .hub-tile-invite strong{font-size:24px;line-height:1.35;white-space:nowrap}
  .hub-overview .hub-tile-invite>span{font-size:10px;line-height:1.6}
  .hub-overview .hub-member-journey{flex:0 0 auto}
+ /* Product mockups use the same canvas units as the slide, avoiding a
+    second enlargement from viewport-sized type inside a scaled scene. */
+ .hub-explore .hub-launch-pair{flex:1 0 auto;min-height:360px;margin:20px 0;align-items:stretch}
+ .hub-explore .hub-open-card{grid-template-columns:36% minmax(0,1fr);min-height:360px}
+ .hub-explore .hub-card-copy{padding:25px 24px;min-height:min-content}
+ .hub-explore .hub-card-copy h2{font-size:30px;line-height:1.45;margin:12px 0}
+ .hub-explore .hub-card-copy p{font-size:22px;line-height:1.7}
+ .hub-explore .hub-card-index{font-size:11px}
+ .hub-explore .hub-card-features{margin-top:20px;gap:12px}
+ .hub-explore .hub-card-features li{font-size:17px;line-height:1.6}
+ .hub-explore .hub-card-action{font-size:17px;margin-top:auto;padding-top:20px}
+ .hub-explore .hub-tile-compass{width:170px;height:170px}
+ .hub-explore .hub-tile-compass>span{font-size:15px}
+ .hub-explore .hub-tile-lab{width:100%;max-width:210px;gap:10px;padding:14px}
+ .hub-explore .hub-tile-lab>div{padding:12px 10px;width:100%;gap:6px}
+ .hub-explore .hub-tile-lab .icon{width:35px;height:35px}
+ .hub-explore .hub-tile-lab span{font-size:10px}
+ .hub-explore .hub-conditions{margin-top:0}
+ .hub-explore .hub-conditions p{font-size:17px;line-height:1.7}
+ .campaign-overview-scene .campaign-identity-grid{flex:0 0 auto}
+ .campaign-overview-scene .identity-copy p{font-size:19px;line-height:1.65}
+ .campaign-overview-scene .identity-copy h2{font-size:22px}
+ .campaign-overview-scene .identity-copy small{font-size:12px;line-height:1.6}
+ .campaign-overview-scene .identity-card{padding:12px 20px 17px}
+ .focus-collaboration .focus-network{flex:1 0 auto}
  body:not([data-atmosphere=finale]) #app{grid-template-rows:calc(76px * var(--presentation-ui-scale)) minmax(0,1fr) calc(72px * var(--presentation-ui-scale))}
  .masthead .club-brand{transform:scale(var(--presentation-ui-scale));transform-origin:right center}
  .masthead .tools{transform:scale(var(--presentation-ui-scale));transform-origin:left center}
  .surgery-signature{top:calc(95px * var(--presentation-ui-scale));transform:scale(var(--presentation-ui-scale));transform-origin:left top}
  .presentation-footer .footer-location{transform:scale(var(--presentation-ui-scale));transform-origin:right center}
  .presentation-footer .presentation-navigation{transform:scale(var(--presentation-ui-scale));transform-origin:left center}
+ .presentation-footer .presentation-navigation{width:max-content;justify-self:end}
+ .presentation-navigation button{flex:0 0 auto;white-space:nowrap}
+ .presentation-navigation button .icon{flex-shrink:0}
  #scene-atmosphere,#transition-layer{top:calc(76px * var(--presentation-ui-scale));bottom:calc(72px * var(--presentation-ui-scale))}
  body[data-atmosphere=finale] #transition-layer{inset:0}
  body[data-atmosphere=finale] .presentation-footer{height:calc(72px * var(--presentation-ui-scale))}
+}
+.campaign-pipeline{display:flex;align-items:center;gap:16px;flex:0 0 auto;padding:10px 20px;margin-top:12px;border:1px solid #8a3b56;border-radius:9px;background:linear-gradient(100deg,#20101c,#48142980);position:relative;isolation:isolate}
+.pipeline-number{font:700 40px/1.1 CampaignDisplay,serif;color:#ed9cb7;min-width:43px;text-align:center}
+.campaign-pipeline>div{flex:1;min-width:0}
+.campaign-pipeline strong{display:block;font-size:20px;line-height:1.45;color:#f3d9e4}
+.campaign-pipeline p{font-size:15px;line-height:1.5;color:#bfa5b4;margin:2px 0 0}
+.pipeline-status{display:flex;align-items:center;gap:8px;font-size:13px;color:#dfbd92;white-space:nowrap}
+.pipeline-status i{width:6px;height:6px;border-radius:50%;background:#dfbd92;box-shadow:0 0 12px #dfbd9244}
+.club-team-collaboration{display:flex;align-items:center;gap:15px;padding:14px 20px;border:1px solid #6e486c;border-radius:9px;background:linear-gradient(100deg,#251322,#31182c88);flex:0 0 auto}
+.club-team-collaboration>.icon{height:37px;width:37px;color:#b8a3e1;flex-shrink:0}
+.club-team-collaboration>div{flex:1;min-width:0}
+.club-team-collaboration h2{font-size:22px;line-height:1.4;color:#ddd0ef}
+.club-team-collaboration p{font-size:17px;line-height:1.6;color:#c1adbd;margin:4px 0 0}
+.club-team-example{font-size:17px;line-height:1.6;color:#b7a4cf;text-align:center;padding-right:20px;border-right:1px solid #72517e}
+.club-team-example b{display:block;font-size:23px;color:#e4c8f6}
+@media(max-width:900px){
+ .campaign-pipeline{padding:14px;gap:12px;flex-wrap:wrap;margin-top:20px}
+ .campaign-pipeline strong{font-size:20px}
+ .campaign-pipeline p{font-size:16px}
+ .pipeline-status{margin-right:55px}
+ .club-team-collaboration{padding:18px 16px;flex-wrap:wrap;gap:13px}
+ .club-team-collaboration>div{flex-basis:calc(100% - 55px)}
+ .club-team-collaboration h2{font-size:23px}
+ .club-team-collaboration p{font-size:18px}
+ .club-team-example{margin-right:50px;border:0;padding:0;text-align:right;font-size:16px}
+ .club-team-example b{display:inline;font-size:21px}
 }

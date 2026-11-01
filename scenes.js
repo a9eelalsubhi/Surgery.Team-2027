@@ -1,10 +1,10 @@
-import {renderSupportSystem,renderInterdisciplinary,renderDocumentationSystem} from './operations.js';
+import {renderSupportSystem,renderInterdisciplinary,renderDocumentationSystem} from './operations.js?v=31';
 import {renderFinale} from './finale.js';
-import {renderCampaignTimeline,renderCampaignOverview} from './campaigns.js';
+import {renderCampaignTimeline,renderCampaignOverview} from './campaigns.js?v=31';
 import {members,memberPortraits,campaigns,collaboration,execution,operations,scenarios,metrics,pages} from './content.js?v=27';
 import {icon} from './iconography.js';
 import {renderStudentJourney} from './journey.js';
-import {renderHub,renderHubExplore} from './hub.js';
+import {renderHub,renderHubExplore} from './hub.js?v=31';
 import {art,brand,reportArt,operatingScreen} from './visuals.js';
 const header=(tag,title,sub='')=>`<header class="section-heading"><div class="eyebrow"><span></span>${tag.replace(/(\d{2} \/ 06)/,'<bdi dir="ltr">$1</bdi>')}</div><h1>${title}</h1>${sub?`<p>${sub}</p>`:''}</header>`;
 const note=()=>'';
